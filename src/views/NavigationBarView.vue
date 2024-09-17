@@ -1,11 +1,17 @@
 <script lang="ts">
 import { RouterLink } from 'vue-router'
+
+export default defineComponent({
+  components: {
+    RouterLink
+  }
+})
 </script>
 
 <template>
   <nav class="flex justify-between lg:p-4 bg-gray-100">
     <div>
-      <RouterLink to="/" class="text-3xl font-extrabold text-gray-600">MotorPH</RouterLink>
+      <RouterLink class="text-3xl font-extrabold text-gray-600" to="/">MotorPH</RouterLink>
     </div>
     <div class="flex items-center justify-center gap-4">
       <!-- Introduction including: {Purpuse,Scope,Defitions,Acronyms,Abbreviations, References, Overview} -->
