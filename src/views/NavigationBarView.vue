@@ -1,12 +1,4 @@
-<script lang="ts">
-import { RouterLink } from 'vue-router'
-
-export default defineComponent({
-  components: {
-    RouterLink
-  }
-})
-</script>
+<script lang="ts"></script>
 
 <template>
   <nav class="flex justify-between lg:p-4 bg-gray-100">
