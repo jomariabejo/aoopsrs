@@ -2,8 +2,6 @@
 
 <template>
   <main>
-    <div class="font-bold">
-      Software Requirements Specification for MotorPH Payroll System Expansion
-    </div>
+    <div class="font-bold">Introduction view starts here.</div>
   </main>
 </template>
